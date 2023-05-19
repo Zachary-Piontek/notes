@@ -34,9 +34,7 @@ input, textarea {
 }
 
 button {
-  background-color: #000000;
-  border: none;
-  color: white;
+  color: black;
   padding: 0.5rem 2rem;
   text-align: center;
   text-decoration: none;
