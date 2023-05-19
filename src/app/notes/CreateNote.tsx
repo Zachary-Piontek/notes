@@ -6,6 +6,7 @@ export default function CreateNote() {
     const [title, setTitle] = useState('');
     const [content, setContent] = useState('');
 
+
     const create = async() => {
         await fetch('http://127.0.0.1:8090/api/collections/notes/records', {
             method: 'POST',
@@ -16,6 +17,7 @@ export default function CreateNote() {
         })
         setContent('');
         setTitle('');
+
     }
 
 
